@@ -44,8 +44,8 @@ extension DatabaseManager {
 }
 
 struct ChatAppUser {
-    let firstName: String
-    let lastName: String
+    let firstName: String?
+    let lastName: String?
     let emailAdress: String
     
     var safeEmail: String {

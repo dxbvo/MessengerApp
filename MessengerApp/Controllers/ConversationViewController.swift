@@ -12,12 +12,11 @@ class ConversationViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = .red
-        do {
-            try FirebaseAuth.Auth.auth().signOut()
-        } catch {
-            print("could not sign out")
-        }
+//        do {
+//            try FirebaseAuth.Auth.auth().signOut()
+//        } catch {
+//            print("could not sign out")
+//        }
         
     }
     
